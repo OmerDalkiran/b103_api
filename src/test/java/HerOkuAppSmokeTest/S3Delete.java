@@ -36,5 +36,8 @@ public class S3Delete extends HerOkuAppBaseUrl {
     assertEquals(201, response.statusCode());
     assertEquals(expectedData, response.asString());
 
+
+
+
   }
 }
